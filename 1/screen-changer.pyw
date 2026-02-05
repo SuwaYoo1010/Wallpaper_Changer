@@ -6,7 +6,9 @@ import subprocess
 import platform
 from datetime import datetime, timedelta
 
-WALLPAPER_FOLDER = r"C:\Users\user\Desktop\Python\1\pic"
+Directory = r"C:\Example\Directory"
+
+WALLPAPER_FOLDER = Directory #AddYourWallpaperHere
 
 # Interchangeable schedule times in 24-hour format
 SCHEDULE_TIMES = [
