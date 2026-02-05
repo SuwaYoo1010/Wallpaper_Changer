@@ -6,9 +6,8 @@ import subprocess
 import platform
 from datetime import datetime, timedelta
 
-Directory = r"C:\Example\Directory"
-
-WALLPAPER_FOLDER = Directory #AddYourWallpaperHere
+# Wallpaper folder is set via WALLPAPER_FOLDER environment variable in the venv
+WALLPAPER_FOLDER = os.environ.get("WALLPAPER_FOLDER", r"C:\Example\Directory")
 
 # Interchangeable schedule times in 24-hour format
 SCHEDULE_TIMES = [
